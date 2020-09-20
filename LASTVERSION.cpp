@@ -7,6 +7,9 @@
 #include <stdlib.h>
 using namespace std;
 
+// blądy są przez to że visual studio myśłe że funckcje z jezyka C są niebezpeczne.
+#define _CRT_SECURE_NO_WARNINGS
+
 // dane
 // 9 - sciana
 // 3 - coin
